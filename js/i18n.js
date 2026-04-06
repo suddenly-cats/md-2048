@@ -1,25 +1,27 @@
 function update_captions(){
   if(window.innerWidth < 520){
     captions = ["Coffee", "Panini",
-      "Idea", "Code",
-      "<span style='display:inline-block;line-height:11px;vertical-align:middle'>Deep Learning</span>",
-      "<span style='font-size:11px;display:inline-block;line-height:11px;vertical-align:middle'>See Supervisor</span>",
-      "<span style='font-size:11px'>Experiment</span>", "Paper",
-      "<span style='font-size:11px'>Conference</span>", "Viva", "PhD",
-      "<span style='font-size:smaller'>Postdoc</span>",
-      "<span style='font-size:smaller'>Lecturer</span>", "Reader", "Prof."];
+      "Pre-med", "MS1",
+      "<span style='display:inline-block;line-height:11px;vertical-align:middle'>Research</span>",
+      "<span style='font-size:11px;display:inline-block;line-height:11px;vertical-align:middle'>Rotations</span>",
+      "<span style='font-size:11px'>USMLE</span>", "Match",
+      "<span style='font-size:11px'>Intern</span>", "Resident", "Chief",
+      "<span style='font-size:11px'>Fellow</span>",
+      "<span style='font-size:11px'>Attending</span>", "Professor", "Chair", "Dean",  "CEO", 
+	  "<span style='font-size:smaller'>"Surgeon General"</span>", "Bab"];
     captions_rel = ["<span style='font-size:9px;'>Relationship</span>",
       "<span style='font-size:11px;'>Break-up</span>"];
   }
   else{
     captions = ["Coffee", "Panini",
-      "Idea", "Code",
-      "<span style='font-size:24px;display:inline-block;line-height:24px;vertical-align:middle'>Deep Learning</span>",
-      "<span style='font-size:20px;display:inline-block;line-height:20px;vertical-align:middle'>See Supervisor</span>",
-      "<span style='font-size:20px'>Experiment</span>", "Paper",
-      "<span style='font-size:20px'>Conference</span>", "Viva", "PhD",
-      "<span style='font-size:smaller'>Postdoc</span>",
-      "<span style='font-size:smaller'>Lecturer</span>", "Reader", "Prof."];
+      "Pre-med", "MS1",
+      "<span style='font-size:24px;display:inline-block;line-height:24px;vertical-align:middle'>Research</span>",
+      "<span style='font-size:20px;display:inline-block;line-height:20px;vertical-align:middle'>Rotations</span>",
+      "<span style='font-size:20px'>USMLE</span>", "Match",
+      "<span style='font-size:20px'>Intern</span>", "Resident", "Chief",
+      "<span style='font-size:20px'>Fellow</span>",
+      "<span style='font-size:20px'>Attending</span>", "Professor", "Chair", "Dean", "CEO", 
+	  "<span style='font-size:smaller'>"Surgeon General"</span>", "Bab"];
     captions_rel = ["<span style='font-size:15px;'>Relationship</span>",
       "<span style='font-size:20px;'>Break-up</span>"];
   }
