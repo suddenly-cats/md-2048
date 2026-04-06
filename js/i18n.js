@@ -1,7 +1,7 @@
 function update_captions(){
   if(window.innerWidth < 520){
     captions = ["Coffee", "Panini",
-      "Pre-med", "MS1",
+      "PreMed", "MS1",
       "<span style='display:inline-block;line-height:11px;vertical-align:middle'>Research</span>",
       "<span style='font-size:11px;display:inline-block;line-height:11px;vertical-align:middle'>Rotations</span>",
       "<span style='font-size:11px'>USMLE</span>", "Match",
@@ -14,7 +14,7 @@ function update_captions(){
   }
   else{
     captions = ["Coffee", "Panini",
-      "Pre-med", "MS1",
+      "PreMed", "MS1",
       "<span style='font-size:24px;display:inline-block;line-height:24px;vertical-align:middle'>Research</span>",
       "<span style='font-size:20px;display:inline-block;line-height:20px;vertical-align:middle'>Rotations</span>",
       "<span style='font-size:20px'>USMLE</span>", "Match",
@@ -76,7 +76,7 @@ function play_in_english(){
   caption_garbage = "<span style='font-size:smaller'>Garbage</span>";
   window.game.actuate();
 
-  game_title = "PhD";
+  game_title = "MD";
   game_alt_title = "Love";
   result_msg = "You got a ";
   var titleElem = document.getElementById('title');
