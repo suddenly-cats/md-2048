@@ -7,8 +7,9 @@ function update_captions(){
       "<span style='font-size:11px'>USMLE</span>", "Match",
       "<span style='font-size:11px'>Intern</span>", "Resident", "Chief",
       "<span style='font-size:11px'>Fellow</span>",
-      "<span style='font-size:11px'>Attending</span>", "Professor", "Chair", "Dean",  "CEO", 
-	  "<span style='font-size:smaller'>Surgeon General</span>", "Bab"];
+      "<span style='font-size:11px'>Attending</span>", 
+	  "<span style='font-size:smaller'>Professor</span>", "Chair", "Dean",  "CEO", 
+	  "<span style='font-size:smaller'>Surgeon General</span>", "GOD", "Bab"];
     captions_rel = ["<span style='font-size:9px;'>Relationship</span>",
       "<span style='font-size:11px;'>Break-up</span>"];
   }
@@ -20,8 +21,9 @@ function update_captions(){
       "<span style='font-size:20px'>USMLE</span>", "Match",
       "<span style='font-size:20px'>Intern</span>", "Resident", "Chief",
       "<span style='font-size:20px'>Fellow</span>",
-      "<span style='font-size:20px'>Attending</span>", "Professor", "Chair", "Dean", "CEO", 
-	  "<span style='font-size:smaller'>Surgeon General</span>", "Bab"];
+      "<span style='font-size:20px'>Attending</span>", 	  
+	  "<span style='font-size:smaller'>Professor</span>", "Chair", "Dean", "CEO", 
+	  "<span style='font-size:smaller'>Surgeon General</span>", "GOD", "Bab"];
     captions_rel = ["<span style='font-size:15px;'>Relationship</span>",
       "<span style='font-size:20px;'>Break-up</span>"];
   }
