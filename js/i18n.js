@@ -76,7 +76,7 @@ function play_in_english(){
   caption_garbage = "<span style='font-size:smaller'>Garbage</span>";
   window.game.actuate();
 
-  game_title = "PhD";
+  game_title = "MD";
   game_alt_title = "Love";
   result_msg = "You got a ";
   var titleElem = document.getElementById('title');
