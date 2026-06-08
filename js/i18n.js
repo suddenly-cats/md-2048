@@ -9,7 +9,7 @@ function update_captions(){
       "<span style='font-size:11px'>Fellow</span>",
       "<span style='font-size:11px'>Attending</span>", 
 	  "<span style='font-size:smaller'>Professor</span>", "Chair", "Dean",  "CEO", 
-	  "<span style='font-size:smaller'>Surgeon General</span>", "GOD", "Bab"];
+	  "<span style='font-size:smaller'>Surgeon General</span>", "GOD", "Bab", "Junior", "Junior Junior"];
     captions_rel = ["<span style='font-size:9px;'>Relationship</span>",
       "<span style='font-size:11px;'>Break-up</span>"];
   }
@@ -23,7 +23,7 @@ function update_captions(){
       "<span style='font-size:20px'>Fellow</span>",
       "<span style='font-size:20px'>Attending</span>", 	  
 	  "<span style='font-size:smaller'>Professor</span>", "Chair", "Dean", "CEO", 
-	  "<span style='font-size:smaller'>Surgeon General</span>", "GOD", "Bab"];
+	  "<span style='font-size:smaller'>Surgeon General</span>", "GOD", "Bab", "Junior", "Junior Junior"];
     captions_rel = ["<span style='font-size:15px;'>Relationship</span>",
       "<span style='font-size:20px;'>Break-up</span>"];
   }
