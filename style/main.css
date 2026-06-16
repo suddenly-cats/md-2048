@@ -522,6 +522,25 @@ hr {
     @media screen and (max-width: 520px) {
       .tile.tile-8388608 .tile-inner {
         font-size: 10px; } }
+  @-webkit-keyframes junior-jr-senior-glow {
+    0%, 100% { box-shadow: 0 0 18px 4px rgba(200, 224, 168, 0.55), inset 0 0 0 2px rgba(255, 255, 255, 0.6); }
+    50%      { box-shadow: 0 0 56px 22px rgba(200, 224, 168, 1), inset 0 0 0 2px rgba(255, 255, 255, 1); } }
+  @-moz-keyframes junior-jr-senior-glow {
+    0%, 100% { box-shadow: 0 0 18px 4px rgba(200, 224, 168, 0.55), inset 0 0 0 2px rgba(255, 255, 255, 0.6); }
+    50%      { box-shadow: 0 0 56px 22px rgba(200, 224, 168, 1), inset 0 0 0 2px rgba(255, 255, 255, 1); } }
+  @keyframes junior-jr-senior-glow {
+    0%, 100% { box-shadow: 0 0 18px 4px rgba(200, 224, 168, 0.55), inset 0 0 0 2px rgba(255, 255, 255, 0.6); }
+    50%      { box-shadow: 0 0 56px 22px rgba(200, 224, 168, 1), inset 0 0 0 2px rgba(255, 255, 255, 1); } }
+  .tile.tile-16777216 .tile-inner {
+    color: #f9f6f2;
+    background: #c8e0a8;
+    box-shadow: 0 0 30px 10px rgba(200, 224, 168, 0.9), inset 0 0 0 2px rgba(255, 255, 255, 0.7);
+    -webkit-animation: junior-jr-senior-glow 1.6s ease-in-out infinite;
+    -moz-animation: junior-jr-senior-glow 1.6s ease-in-out infinite;
+    animation: junior-jr-senior-glow 1.6s ease-in-out infinite; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-16777216 .tile-inner {
+        font-size: 10px; } }
 
 .karma {font-size: smaller;}
 #progress {
